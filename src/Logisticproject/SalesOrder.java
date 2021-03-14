@@ -102,7 +102,7 @@ public class SalesOrder extends javax.swing.JFrame {
             
                 Thread.sleep(1000);
             
-System.out.println(sql2);
+System.out.println();
  System.out.println(sql1);
                 PreparedStatement psu = conn.prepareStatement(sql1);
                 psu.addBatch();
